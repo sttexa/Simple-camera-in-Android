@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        />
+
+    <Button
+        android:id="@+id/Undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:onClick="Undo"
+        android:text="@string/undo"/>
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+
+        android:onClick="Back"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/Cropping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="50dp"
+        android:onClick="Cropping"
+        android:text="@string/cropping" />
+
+    <Button
+        android:id="@+id/Greying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="50dp"
+        android:onClick="Graying"
+        android:text="@string/greying" />
+
+    <Button
+        android:id="@+id/Coloring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp"
+        android:onClick="Coloring"
+        android:text="@string/coloring" />
+
+    <Button
+        android:id="@+id/Finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:onClick="Finish"
+        android:text="@string/finish" />
+
+
+
+
+</FrameLayout>
